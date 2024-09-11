@@ -1,2 +1,0 @@
-# pixelvivo
-projetos Pixelvivo
