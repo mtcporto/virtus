@@ -151,7 +151,7 @@ a:visited {
   display: inline-block;
   vertical-align: middle;
   color: #FFFFFF;
-  background: #ee3234;
+  background: #0ea51a;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: .04em;
@@ -159,8 +159,8 @@ a:visited {
   border-radius: 30px;
   padding: 18px 39.5px;
   text-align: center;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
+          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
