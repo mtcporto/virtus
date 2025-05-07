@@ -1302,6 +1302,11 @@ a[href^="https://maps.google.com/maps"] {
   min-height: 958px;
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1889,8 +1894,8 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 12px;
   font-weight: 800;
   line-height: 1em;
-  text-decoration: underline;
-  -webkit-transition: all .4s ease;
+/*   text-decoration: underline;
+ */  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
@@ -3069,14 +3074,15 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-easy-step-one .read-more {
-  display: block;
-  margin-left: auto;
+/*   display: block;
+ */  margin-left: auto;
   margin-right: auto;
-  width: 65px;
-  height: 40px;
-  background: #001328;
+  /* width: 65px;
+  height: 40px; */
+  background: #d8d9ca;
   border-radius: 20px;
   text-align: center;
+  padding: 10px 45px;
   margin-bottom: 15px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
@@ -6295,7 +6301,7 @@ a[href^="https://maps.google.com/maps"] {
 * 29. inner banner styles 
 ***************************/
 .inner-banner {
-  background: #001328 url(../images/inner-banner-1-1.jpg) center top no-repeat;
+  background: #001328 url(../images/historia.jpeg) center top no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 262px;
